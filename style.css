@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-img{
+    background-image: url('./images/African_doctor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.divs{
+    background-image: url('./images/doc_explanation.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.diver{
+    background-image: url('./images/skills.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(240, 240, 246);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.top{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(70, 129, 44);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    margin-left: 68%;
+    margin-top: 25px;
+    
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: white;
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.bgn{
+    text-decoration-line: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: blue;
+}
+button{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    border-radius: 25px;
+    border: 0;
+    padding: 15px 30px;
+    background-color: rgb(227, 227, 227);
+}
+.card{
+    width: 260px;
+    height: 300px;
+    display: inline-flex;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:20px 20px;
+    background-position: center;
+    background-size: cover;
+}
+.constant{
+    margin-top: 50px;
+    margin: 5px 10px;
+    height: 50vh;
+}
+.card1{
+    background-image: url('./images/emergency.jpg');
+}
+.card2{
+    background-image: url('./images/top-view-doctor-using-laptop-clipboard.jpg');
+}
+.card3{
+    background-image: url('./images/Doc_nurse.jpg');
+}
+h3{
+    color: rgb(50, 123, 50);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paste{
+    color: ghostwhite;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-top: 100px;
+    margin-right: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paste1{
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    padding: 0;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-right: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    color: white;
+}
+.paste2{
+    color: rgb(239, 244, 238);
+    font-size: 20px;
+    padding: 0;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    justify-content: center;
+    align-content: center;
+    margin-top: 75px;
+}
+h2{
+    text-align: center;
+    align-self: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(42, 84, 42);
+}
+.page{
+    font-family: sans-serif;
+    text-align: center;
+    align-self: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    line-height: 25px;
+    color: rgba(64, 143, 72, 0.8);
+}
+footer{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: rgb(31, 116, 66);
+    
+}
+.footer > *{
+    flex: 1 100%;
+}
+.footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+h4{
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+.footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color: rgb(11, 100, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-bottom{
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-left a{
+    padding-right: 20%;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #0a6d38;
+}
+.tip{
+    color: rgb(37, 73, 43);
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+@media screen and (min-width: 600px){
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+    
+}
+@media (max-width: 600px){
+   .footer{
+    padding: 15px;
+   }
+   *, *::before, *::after{
+    box-sizing: border-box;
+  }
+  .nav ul li a{
+    float: none;
+    position: relative;
+    display: inline;
+    cursor: pointer;
+    padding:auto;
+    flex-direction: column;
+  }
+  .nav{
+    margin-left: 5rem;
+  }
+}
